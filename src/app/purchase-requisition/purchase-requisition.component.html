@@ -1,0 +1,188 @@
+
+   
+
+
+    <div class="content-body">
+        <div class="container-fluid">
+            <div class="row page-titles mx-0">
+                <div class="col-sm-6 p-md-0">
+                    <div class="welcome-text">
+                     
+                        <p class="mb-0" style="font-weight:bolder">Purchase Requisition</p>
+                    </div>
+                </div>
+              
+            </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="card">
+                        <!-- <div class="card-header">
+                            <h4 class="card-title">Purchase Details</h4>
+                        </div> -->
+
+                        <ngb-accordion #acc="ngbAccordion">
+                            <ngb-panel id="toggle-1" title="Purchase Details" cardClass="default-accordion">
+                              <ng-template ngbPanelContent>
+                                <div class="form-validation">
+                                    <form class="form-valide" action="#" method="post"  novalidate>
+                                        <div class="row">
+                                            <div class="col-xl-6">
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="username">Title of Requisition
+                                                    
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" id="username" formControlName="username" placeholder="Enter Title">
+                                                    </div>
+                                                    
+                                                </div>
+                                                
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="val-password">Description
+                                                    
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <div class="input-group">
+                                                            <input #inputPassword type="password" class="form-control" formControlName="password"  id="password" placeholder="Enter description">
+                                                            
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="val-password">Request Start date
+                                                    
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <div class="input-group">
+                                                            <input #inputPassword type="password" class="form-control" formControlName="password"  id="password" placeholder="Enter start date">
+                                                            
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="digits">Request End date
+                                                      
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" id="digits" placeholder="Enter End date" formControlName="digits">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="website">Status
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" id="website" placeholder="Enter Status" formControlName="website">
+                                                  
+                                                    </div>
+                                                    </div>
+                                               
+                                            </div>
+                                            <div class="col-xl-6">
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="website">Item Requested
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" id="website" placeholder="Enter Item" formControlName="website">
+                                                  
+                                                    </div>
+                                                    </div>
+                                                    <div class="form-group row">
+                                                        <label class="col-lg-4 col-form-label" for="website">Quantity of Items
+                                                        </label>
+                                                        <div class="col-lg-6">
+                                                            <input type="text" class="form-control" id="website" placeholder="Enter Quantity" formControlName="website">
+                                                      
+                                                        </div>
+                                                        </div>
+                                                        <div class="form-group row">
+                                                            <label class="col-lg-4 col-form-label" for="website">Request for Quote
+                                                            </label>
+                                                            <div class="col-lg-6">
+                                                                <input type="text" class="form-control" id="website" placeholder="Enter quotes" formControlName="website">
+                                                          
+                                                            </div>
+                                                            </div>
+                                                            <div class="form-group row">
+                                                                <label class="col-lg-4 col-form-label" for="website">Brand of Items
+                                                                </label>
+                                                                <div class="col-lg-6">
+                                                                    <input type="text" class="form-control" id="website" placeholder="Enter Brand" formControlName="website">
+                                                              
+                                                                </div>
+                                                                </div>
+                                                                <div class="form-group row">
+                                                                    <label class="col-lg-4 col-form-label" for="website">Email
+                                                                    </label>
+                                                                    <div class="col-lg-6">
+                                                                        <input type="text" class="form-control" id="website" placeholder="Enter Email" formControlName="website">
+                                                                  
+                                                                    </div>
+                                                                    </div>
+                                                    </div>
+                                        </div>
+                                    </form>
+                     
+                                </div>
+                              </ng-template>
+                            </ngb-panel>
+                            <ngb-panel id="toggle-2" title="PR Contact" cardClass="default-accordion">
+                              <ng-template ngbPanelContent>
+                                <div class="form-validation">
+                                    <div class="col-xl-6">
+                                        <div class="form-group row">
+                                            <label class="col-lg-4 col-form-label" for="website">Name
+                                            </label>
+                                            <div class="col-lg-6">
+                                                <input type="text" class="form-control" id="website" placeholder="Enter name" formControlName="website">
+                                          
+                                            </div>
+                                            </div>
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label" for="website">Email
+                                                </label>
+                                                <div class="col-lg-6">
+                                                    <input type="text" class="form-control" id="website" placeholder="Enter Email" formControlName="website">
+                                              
+                                                </div>
+                                                </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="form-group row">
+                                                <label class="col-lg-4 col-form-label" for="website">Contact Number
+                                                </label>
+                                                <div class="col-lg-6">
+                                                    <input type="text" class="form-control" id="website" placeholder="Enter contact no" formControlName="website">
+                                              
+                                                </div>
+                                                </div>
+                                                <div class="form-group row">
+                                                    <label class="col-lg-4 col-form-label" for="website">Brand of Items
+                                                    </label>
+                                                    <div class="col-lg-6">
+                                                        <input type="text" class="form-control" id="website" placeholder="Enter Brand" formControlName="website">
+                                                  
+                                                    </div>
+                                                    </div>
+                                        </div>
+                                    </div>
+                              </ng-template>
+                            </ngb-panel>
+                      
+                          </ngb-accordion>
+                          <button type="submit" class="btn btn-primary"
+                          style="margin-top: 35px;
+                          width: 97px;
+                          position: relative;
+                          margin-left: 461px;
+                          margin-bottom: 24px;">Submit</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
